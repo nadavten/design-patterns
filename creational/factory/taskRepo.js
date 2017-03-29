@@ -1,12 +1,10 @@
 var repo = function(){
 
-    var db = {};
-
     return{
         get:function(id){
             console.info('getting task: ' + id);
             return {
-                name:'new task from db';
+                name:'new task from db'
             }
         },
 
